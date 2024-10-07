@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Вертикальне відображення елементів</title>
+</head>
+<body>
+    <table width="100%">
+        <!-- Текст с формулой -->
+        <tr>
+            <td>
+                <p>Загальна кількість перестановок з n елементів дорівнює <strong>добутку всіх цілих чисел від 1 до n:</strong></p>
+                <p><strong>P<sub>n</sub> = 1*2*3...*(n-2)*(n-1)*n</strong></p>
+            </td>
+        </tr>
+
+        <!-- Список дисциплін -->
+        <tr>
+            <td>
+                <h2>Список дисциплін 3-го курсу</h2>
+                <dl>
+                    <dt>Інформатика</dt>
+                    <dd>Вивчення основ програмування та алгоритмів.</dd>
+                    <dt>Фізика</dt>
+                    <dd>Знайомство з основами фізичних законів.</dd>
+                    <dt>Математика</dt>
+                    <dd>Поглиблене вивчення математичного аналізу.</dd>
+                </dl>
+            </td>
+        </tr>
+
+        <!-- Таблица периодической системы элементов -->
+        <tr>
+            <td>
+                <h2>Фрагмент періодичної системи елементів</h2>
+                <table border="1">
+                    <tr>
+                        <th>№</th>
+                        <th>Елемент</th>
+                        <th>Символ</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Гідроген</td>
+                        <td>H</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Гелій</td>
+                        <td>He</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Літій</td>
+                        <td>Li</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Форма для ввода комплектующих ПК -->
+        <tr>
+            <td>
+                <h2>Форма для введення інформації про комплектуючі ПК</h2>
+                <form action="#" method="post">
+                    <label for="processor">Процесор:</label>
+                    <input type="text" id="processor" name="processor"><br><br>
+                    
+                    <label for="ram">Оперативна пам'ять:</label>
+                    <input type="text" id="ram" name="ram"><br><br>
+                    
+                    <label for="gpu">Відеокарта:</label>
+                    <input type="text" id="gpu" name="gpu"><br><br>
+                    
+                    <input type="submit" value="Відправити">
+                </form>
+            </td>
+        </tr>
+
+    
+        <tr>
+            <td>
+                <h2>Посилання та зображення</h2>
+                <p>Натисніть на зображення для переходу на відповідний сайт:</p>
+                <img src="university.jpg" usemap="#image-map" alt="Університет">
+                
+                <map name="image-map">
+                    <area shape="rect" coords="34,44,270,350" alt="Університет" href="https://nure.ua/">
+                    <area shape="rect" coords="290,172,333,250" alt="Кафедра" href="https://nure.ua/faculty/fakultet-kompyuternoyi-inzheneriyi-ta-upravlinnya">
+                    <area shape="rect" coords="350,77,411,129" alt="Розклад" href="https://cist.nure.ua/ias/app/tt/f?p=778:201:1452494366915083:::201:P201_FIRST_DATE,P201_LAST_DATE,P201_GROUP,P201_POTOK:01.09.2024,31.01.2025,10304325,0:">
+                </map>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
